@@ -1,0 +1,7 @@
+Edasipidi võiks veits õpetada ka mitte niisama ülesandeid jagada. 
+
+See test kasutab Seleniumit ja Chrome'i driverit, et automatiseerida Google'i otsingut. 
+Esmalt tuleb sulgeda Google'i cookie modaal, mis avamisel hüppab üles. 
+Selleks leitakse nupuelement, mille tekstiks on "Keeldu kõigist", ja sellele klikitakse. 
+Seejärel leitakse otsinguriba (element nimega "q"), kuhu sisestatakse päring: "Automatiseerige protsess, kus sisestate otsingupäringu otsingukasti Seleniumi abil", ning käivitatakse otsing. 
+Testimist ei saa edasi viia, kuna Google kuvab enne otsingutulemuste näitamist bot-i tuvastuslehe.
